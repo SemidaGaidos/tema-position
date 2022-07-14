@@ -26,6 +26,15 @@ h1 {
   border-block-end: 1px solid rgba(219, 219, 219, 1);
 }
 .btn-x {
+  transition-property: background-color outline;
+}
+.btn-x:hover {
+  outline: 1px solid white;
+  background-color: red;
+  transition-duration: 1s;
+  transition-timing-function: linear;
+}
+.btn-x {
   background: #44444b;
   box-shadow: 0rem 0.18rem 2rem 0rem black;
   padding-inline: 0.6rem;
